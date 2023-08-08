@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../mycss/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Libre+Baskerville&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Libre+Baskerville&family=Philosopher&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <title>Projects</title>
+    <style>
+        #head-img{
+            margin: 0px;
+            background-image: url(../assets/images/projects_background.jpg);
+            background-size: 100%;
+            height: 50vh;
+            background-repeat: no-repeat;
+
+        }
+        h1{
+            margin-top: 0px;
+            position: relative;
+            top:100px;
+            font-size: 4rem;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 300;
+            color: #FCF8E8;
+        }
+
+
+        h3{
+            font-size: 2rem;
+            display: inline-block;
+        }
+
+        #cont{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr ;
+            gap: 20px;
+            
+        }
+
+        .project-pre{
+            display: flex;
+            flex-direction: column;
+            background-color: #FFD580;
+            padding: 10px;
+            border-radius: 25px;
+            align-items: center;
+            justify-content: space-around;
+            height: 500px;
+        }
+
+        .project-pre img{
+            width: 90%;
+            height: 50%;
+        }
+
+
+
+        .project-pre a{
+            text-decoration: none;
+            border: solid 2px 	#FFD580 ;
+            background-color: #94B49F;
+            padding:15px;
+            border-radius: 10%;
+            transition: 0.5s;
+        }
+
+
+
+        .project-pre a:hover{
+            text-decoration: none;
+            border: solid 2px 	#FFD580 ;
+            background-color: #94B49F;
+            padding:15px;
+            border-radius: 10%;
+            color: #94B49F;
+            background-color: #FCF8E8;
+            box-shadow: 2px 2px black;
+            transition: 0.5s;
+        }
+
+
+
+        .project-disc{
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+
+        .full-pro{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+
+        @media (max-width: 1000px){
+
+            #cont{
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr ;
+            gap: 20px;
+            
+        }
+
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="nav-bar"> 
+        <img src="../assets/images/logo.svg" alt="" width="200"> 
+        <a href="../index.html" draggable="false">Home</a>
+        <a href="../public/myProjects.html" draggable="false">Projects</a>
+        <a href="./aboutMe.html" draggable="false">About Me</a>
+        <a href="../public/contact.html" draggable="false">Get In Touch</a>
+    </div>
+    <div id="head-img">
+        <h1>Projects</h1>
+    </div>
+    <div id="main-div">
+        <div id="cont">
+
+            <div class="full-pro">
+                <div class="project-pre">
+                        <img src="../assets/images/checker_img.png" alt="checkers">
+                        <h2>Checkers board</h2>
+                        <a href="../pros/checkers_pro/index.html" target="_blank">Try It</a>
+                </div>
+
+                <div class="project-disc">
+                    <ul>technologys:
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>              
+                </div>
+                <hr>
+            </div>
+            
+            <div class="full-pro">
+
+                <div class="project-pre">
+                    <img src="../assets/images/moveit_img.png" alt="checkers">
+                    <h2>Move it website</h2>
+                    <a href="../pros//moving_company_pro/index.html" target="_blank">Try It</a>
+                </div>
+
+                <div class="project-disc">
+                    <ul>technologys:
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>bootstrap</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            
+
+            <div class="full-pro">
+
+                <div class="project-pre">
+                    <img src="../assets/images/tindog_img.png" alt="checkers">
+                    <h2>TinDog</h2>
+                    <a href="../pros//tindog_pro/index.html" target="_blank">Try It</a>
+                </div>
+
+                <div class="project-disc">
+                    <ul>technologys:
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>flexbox</li>
+                        <li>CSS grid</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+                  
+
+                
+        </div>
+        <br>
+        <h3> And more comming soon ..... </h3>
+            <img src="../assets/images/code_man.gif" alt="code man">
+
+    </div>
+    
+
+
+
+
+    <footer>
+        Copyright © 2023 Shaker hesham. All Rights Reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* ---------------- elements  -------------------*/
+
+body{
+    background-color: 	#E3F4F4;
+    margin: 0px;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+
+footer{
+    padding: 10px 20px;
+    background-color: #94B49F;
+    
+
+}
+
+
+footer a{
+    text-decoration: none;
+    color: #FCF8E8;
+    margin: 15px 5px;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #FFD580;
+    margin: 15px 5px;
+}
+
+hr{
+    border: 10px dotted #94B49F;
+    border-width: 7px 0px 0px 0px;
+    width: 50%;
+}
+
+/*  ------------------   ids   --------------------*/
+#nav-bar{
+    background-color: #94B49F;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#nav-bar > img{
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+
+#nav-bar > a{
+    border: solid 2px 	#FFD580;
+    border-radius: 10%;
+    padding: 15px;
+    margin-right:50px;
+    color: #FCF8E8;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+
+#nav-bar > a:hover{
+    border: solid 2px 	#FFD580;
+    color: #94B49F;
+    background-color: #FCF8E8;
+    box-shadow: 2px 2px black;
+    transition: 0.5s;
+}
+
+#main-div{
+    padding: 5px 20px;
+}
+
+/*  ------------------   classes  --------------------*/
+.text-section{
+    background-color: #FFD580;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
